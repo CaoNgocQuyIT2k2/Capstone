@@ -5,15 +5,8 @@
   box-sizing: border-box;
 }
 body {
-    font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 16px;
-}
-.title h5{
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 700;
-    color: #dc4f72;
-    margin-bottom: 5px;
 }
 
 h2 {
@@ -22,6 +15,18 @@ h2 {
   font-size: 46px;
   line-height: 55px;
   font-weight: 800;
+}
+h4{
+    color: #2c3038;
+    font-weight: 700;
+}
+
+.title h5 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #dc4f72;
+  margin-bottom: 5px;
 }
 .p__fs1 {
   font-size: 16px;
@@ -53,7 +58,7 @@ h2 {
   margin-right: 10px;
 }
 .about__mid__left p {
-    margin: 15px 0 35px 0;
+  margin: 15px 0 35px 0;
 }
 .about__mid__right img {
   height: 100%;
@@ -62,21 +67,60 @@ h2 {
   transition: all 0.5s;
 }
 .about__mid__right img:hover {
-    transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 /* about__bot */
-.about__bot{
-    margin-top: 70px;
+.about__bot {
+  margin: 70px 0;
 }
+
 .about__bot h4 {
     color: #2c3038;
     font-size: 26px;
     line-height: 32px;
     font-weight: 700;
-}
+  }
 /* SERVICE */
 .service {
-    background-color: #f7f9fc;
+  background-color: #f7f9fc;
 }
-
-
+.service__bot__item {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 0 25px;
+    height: 250px;
+    box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
+    margin-top: 40px;
+}
+.service__bot__item:hover i  {
+transform: translateY(-50%);
+}
+.service__bot__item:hover h4 {
+    transform: translateY(-30%);
+}
+.service__bot__item:hover .service__bot__detail{
+    opacity: 1;
+    transform: scale(1);
+}
+.service__bot__item i{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: #dc4f72ff;
+    color: white;
+    font-size: 26px;
+    transform: translateY(50%);
+    transition: all 0.3s;
+}
+.service__bot__item h4 {
+    font-size: 22px;
+    margin-bottom: 0;
+    transform: translateY(100%);
+    transition: all 0.6s;
+}
+.service__bot__detail {
+    opacity: 0;
+    transition: all 0.7s;
+    transform: scale(0.5);
+}
