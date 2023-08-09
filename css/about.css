@@ -33,6 +33,19 @@ h4 {
   line-height: 24.5px;
   color: #5a5a5a;
 }
+.button1 {
+  font-size: 14px;
+  padding: 0 30px;
+  line-height: 52px;
+  font-weight: 700px;
+  background-color: #dc4f72;
+  color: white;
+}
+.button1:hover {
+  color: white;
+  background-color: #d62f58;
+  border-color:#cf2952 ;
+}
 /* ABOUT */
 /* about__mid */
 .about__mid__left h3 {
@@ -132,7 +145,7 @@ h4 {
 }
 /* creative */
 .creative {
-  padding: 2rem 0;
+  padding: 50px 0;
 }
 .creative__video {
   position: relative;
@@ -173,12 +186,60 @@ h4 {
   background-color: white;
   font-size: 20px;
 }
-.modal {
+.creative__video .modal {
   background-color: rgba(0, 0, 0, 0.9);
 }
 .modal-content {
   margin: 150px 0;
 }
+/* SERVICE : button */
+.creative__button h5{
+  color: #2c3038;
+  font-size: 30px;
+  font-weight: 700;
+}
+.creative__button button:focus{
+color: white;
+background-color: #d62f58;
+border-color: #cf2952;
+box-shadow: 0 0 0 0.2rem rgba(225, 105, 135, 0.5);
+}
+.creative__button input {
+  border: 1px solid rgba(128, 128, 128,0.2);
+  border-radius: 5px;
+  background-color: #f7f9fc;
+  margin: 10px 0;
+  padding: 15px 10px;
+  
+}
+.creative__button input:focus{
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #dc4f72;
+  background-color: white; 
+}
+.modal-header, .modal-footer{
+  border: none;
+}
+/* CREATIVE : creative__bot */
+.creative__bot {
+  margin-top: 70px;
+  filter:  grayscale(100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes animation_button {
   0% {
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.15),
