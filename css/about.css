@@ -88,9 +88,10 @@ h4{
     border: 1px solid transparent;
     border-radius: 5px;
     padding: 0 25px;
-    height: 250px;
+    height: 240px;
     box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
     margin-top: 40px;
+    background-color: white;
 }
 .service__bot__item:hover i  {
 transform: translateY(-50%);
@@ -110,17 +111,23 @@ transform: translateY(-50%);
     background-color: #dc4f72ff;
     color: white;
     font-size: 26px;
-    transform: translateY(50%);
+    transform: translateY(80%);
     transition: all 0.3s;
 }
 .service__bot__item h4 {
     font-size: 22px;
     margin-bottom: 0;
-    transform: translateY(100%);
+    transform: translateY(120%);
     transition: all 0.6s;
 }
 .service__bot__detail {
     opacity: 0;
     transition: all 0.7s;
     transform: scale(0.5);
+}
+.service__bot__detail a{
+    color: #dc4f72;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 700;
 }
