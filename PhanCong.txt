@@ -1,6 +1,9 @@
 Cao Ngọc Quý:
-- Tạo phần create source 
+- create navbar + footer
 - .
 
 *************************************************
-Huỳnh Thái Sơn
+Hoàng Anh 
+
+*************************************************
+Lê Tất Thành
