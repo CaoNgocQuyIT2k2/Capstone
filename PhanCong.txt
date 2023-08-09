@@ -1,4 +1,5 @@
-***Task1: Mỗi người làm 2 page trên phần navbar
+***
+    Task1: Mỗi người làm 2 page trên phần navbar
     Deadline sẽ là ngày 21/8/2023
 ***
 Cao Ngọc Quý:Home+ Service
