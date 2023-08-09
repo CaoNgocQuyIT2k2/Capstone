@@ -18,6 +18,17 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
+    document.querySelectorAll(".dropdown-toggle").forEach(function(toggle) {
+        toggle.addEventListener("click", function() {
+            var dropdown = this.parentElement.querySelector(".dropdown-menu");
+            if (dropdown.classList.contains("show")) {
+                dropdown.classList.remove("show");
+            } else {
+                dropdown.classList.add("show");
+            }
+        });
+    });
+
     function loadPage(page) {
         var contentDiv = document.getElementById("content");
         
