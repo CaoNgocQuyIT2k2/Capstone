@@ -309,7 +309,6 @@
           <div><img src="../image/about_owl_2.jpg" alt="" /></div>
           <div><img src="../image/about_owl_3.jpg" alt="" /></div>
           <div><img src="../image/about_owl_4.jpg" alt="" /></div>
-          
         </div>
       </div>
     </div>
@@ -343,26 +342,26 @@
     <!-- OWL CAROUSEL -->
     <script src="../OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script>
-      $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    autoplay:true,
-    autoplayTimeout:4000,
-    autoplayHoverPause:true,
-    autoplaySpeed: 2000,
-    responsive:{
-        0:{
-            items:1
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        autoplaySpeed: 2000,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
         },
-        600:{
-            items:3
-        },
-        1000:{
-            items:4
-        }
-    }
-})
+      });
     </script>
   </body>
 </html>
