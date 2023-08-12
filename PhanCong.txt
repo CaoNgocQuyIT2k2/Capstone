@@ -2,12 +2,12 @@
     Task1: Mỗi người làm 2 page trên phần navbar
     Deadline sẽ là ngày 21/8/2023
 ***
-Cao Ngọc Quý:Home+ Service
+Cao Ngọc Quý:header- HomePageCTA - footer - demo-bar
 - create navbar + footer
 
 
 *************************************************
-Hoàng Anh: blog posts + landing page
+Hoàng Anh: HomePageCover-HomePageFaq-HomepageProjects-HomePageTestimonials
 
 *************************************************
-Lê Tất Thành: about + contact 
+Lê Tất Thành: HPHeroHeader-HPWhyChooseUs-HPAbout-HPStats
