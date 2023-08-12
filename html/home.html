@@ -56,7 +56,7 @@
               Building a beautiful interactive business for <br />
               startups and innovative companies.
             </p>
-            <button class="button__1">GET STARTED</button>
+            <a href="#" class="btn button__1">GET STARTED</a>
           </div>
           <div class="col-6 banner__right">
             <img src="../image/home_banner_1.png" class="img-fluid" alt="" />
@@ -126,8 +126,55 @@
     <!-- ABOUT -->
     <section class="about HPAbout py-5">
       <div class="container about__content">
-        <div class="about__top"></div>
-        <div class="about__bot"></div>
+        <div class="about__top row">
+          <div class="about__top__left title pr-5 col-6">
+            <p>ABOUT OUR COMPANY</p>
+            <h3>The Best Choice For Your Successful Business!</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est
+              <br />
+              repellendus illum harum quam nihil totam reprehenderit! Ut sed
+              eveniet quos! Asperiores officia, repudiandae similique
+              reiciendis, ab est magnam esse nesciunt ea fuga facere voluptatem.
+            </p>
+            <a href="#" class="btn button__1">READ MORE</a>
+          </div>
+          <div class="about__top__right pl-5 col-6">
+            <img src="../image/home_about_1.jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+        <div class="about__bot row mt-3">
+          <div class="col-4">
+            <div class="about__bot__item">
+              <h4>Happy Customers</h4>
+              <p class="counter">10458</p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="about__bot__item">
+              <h4>Winning Awards</h4>
+              <p class="counter">890</p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="about__bot__item">
+              <h4>Completed Projects</h4>
+              <p class="counter">5345</p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section class="HPStats pb-5 pt-4"></section>
@@ -162,6 +209,18 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <!-- WAYPOINT JS ( COUTER UP JS) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <!-- COUTER UP JS -->
+    <script src="../Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.min.js"></script>
+    <script>
+      $(".counter").countUp({
+        time: 2000,
+        delay: 10,
+      });
+    </script>
+
     <script src="../js/main.js"></script>
   </body>
 </html>
