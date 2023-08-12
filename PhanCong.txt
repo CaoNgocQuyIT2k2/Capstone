@@ -3,7 +3,7 @@
     Deadline sẽ là ngày 21/8/2023
 ***
 Cao Ngọc Quý:header- HomePageCTA - footer - demo-bar
-- create navbar + footer
+- create navbar + footers
 
 
 *************************************************
